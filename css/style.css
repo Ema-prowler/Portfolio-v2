@@ -1,0 +1,31 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 150px; /* Ancho de la barra lateral */
+  height: 100%; /* Altura de la barra lateral que ocupa toda la pantalla */
+  background-color: #333; /* Color de fondo de la barra lateral */
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 190px; /* Ajusta el margen izquierdo para dejar espacio para la barra lateral */
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
