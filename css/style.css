@@ -1,4 +1,12 @@
+@font-face {
+  font-family: Sans Forgetica;
+  src: url(/font/SansForgetica-Regular.otf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .sidebar {
+  font-family: Sans Forgetica;
   position: fixed;
   left: 0;
   top: 0;
@@ -42,6 +50,7 @@
 }
 
 .content {
+  font-family: Sans Forgetica;
   margin-left: 190px; /* Ajusta el margen izquierdo para dejar espacio para la barra lateral */
   padding: 20px;
   background-color: rgb(31, 127, 151);
